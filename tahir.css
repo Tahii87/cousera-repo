@@ -1,0 +1,150 @@
+body{
+    margin:10;
+    padding: 10;
+    font-size: xx-large;
+    font-style: italic;
+    background-size: cover;
+    height: 17vh;
+    background-image: url(bac.jpg);
+}
+.logo
+{
+    background-image: url(bac.webp);
+    background-size: cover;
+    width:100%;
+    height:70vh;
+    
+}
+nav
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: black;
+    text-align: left;
+}
+nav ul{
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li 
+{
+    float: left;
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+}
+nav ul li a
+{
+    color: red;
+    text-decoration: none;
+    margin: 10px;
+}
+nav ul li a:hover
+{
+color: white;
+}
+nav ul li ul   {
+    float: left;
+    text-decoration: blink;
+    display: none;
+    position: absolute;
+    margin-bottom: 15px;
+    background:black;
+    border: solid;
+}
+
+nav ul li ul li {
+    text-decoration: none;
+    display: block;
+    height: auto;
+    list-style-type: none;
+    margin: 3px;
+
+}
+nav ul li:hover ul {
+    display: block;
+    color: white;
+}
+.search
+{
+    font-size: x-large;
+    border-radius: 50px;
+}
+.bt
+{
+    font-size: x-large;
+    background-color:red;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallary
+{
+    margin: 5px;
+    margin-top: 10px;
+    border:solid;
+    float: left;
+    width: 380px;
+}
+.gallary img 
+{
+    width: 100%;
+    height: 50vh;
+}
+.description
+{
+    padding: 15px;
+    text-align: center;
+    background: white;
+}
+.btn 
+{
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    text-align:left;
+}
+.name
+{
+
+}
+footer 
+{
+    width: 100%;
+    margin: 10px;
+    background-color: black;
+}
+footer div ul
+{
+    text-decoration:none;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+footer div ul li
+{
+    text-decoration: none;
+    margin: 25px;
+
+
+}
+footer div ul li ul li a 
+{
+    text-decoration: none;
+    list-style-type: inline;
+    margin: 50px;
+    color: gray;
+}
+footer div ul li ul li a:hover
+{
+    color: red;
+}
