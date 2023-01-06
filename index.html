@@ -8,9 +8,12 @@
     <style>
      
         section{
-            color: blue;
             font-size: larger;
             text-align: center;
+        }
+        section:hover{
+            background-color: green;
+            width: auto;
         }
         h1{
             color: black;
@@ -20,10 +23,14 @@
             text-align: center;
             font-size: 100px;
         }
-         a{
+        li a{
             color: green;
             font-size: 50px;
             text-decoration: none;
+        }
+        li a:hover{
+            background-color: black;
+            width: 100px;
         }
         p{
             color: black;
@@ -46,6 +53,7 @@
             width: 500px;
             height:auto; 
           }
+          
 
     </style>
 </head>
@@ -60,12 +68,12 @@
         </nav>
     </header>
     <h1 id="top">Welcome!</h1>
-        <section> 
+        <article>
             <ol>
             <li><a href="#section1">Section 1</a></li>
             <li><a href="#section2">Section 2</a></li>
             </ol>
-        </section>
+        </article>
         <section id="section1">
             <h1>Section 1</h1>
            <p> Best Inspirational Paragraphs, Sentences and Messages
