@@ -1,0 +1,17 @@
+body
+{
+    margin:10;
+    padding: 10;
+    font family:sans-serif;
+    background-size: cover;
+    background image: url(burger.jpg)
+}
+.sign-up-form
+{
+width:300px;
+padding:20px;
+background:sky blue;
+margin:20px;
+text-align:center; 
+
+}
